@@ -1,0 +1,21 @@
+﻿<Window x:Class="TreadsSync.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TreadsSync"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="510*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Thread #1" HorizontalAlignment="Left" Margin="83,67,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Thread_1"/>
+        <Button Content="Stop #1" HorizontalAlignment="Left" Margin="83,251,0,0" VerticalAlignment="Top" Width="75" Click="Stop_Thread_1"/>
+        <Button Content="Thread #3" HorizontalAlignment="Left" Margin="207,158,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Thread_3"/>
+        <Button Content="Thread #2" HorizontalAlignment="Left" Margin="333,67,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Thread_2"/>
+        <Button Content="Stop #2" HorizontalAlignment="Left" Margin="333,251,0,0" VerticalAlignment="Top" Width="75" Click="Stop_Thread_2"/>
+
+    </Grid>
+</Window>
